@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="32dp">
+
+    <com.aksenov.swiper.views.AmountWithDecimalEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:digits="0123456789.,"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:maxLength="20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:text="Pasted text: П578.678,567"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
