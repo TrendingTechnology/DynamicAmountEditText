@@ -2,6 +2,12 @@
 
 Customizable view with runtime amount formatting. There's nothing extra. Supports different divider's types.
 
+Features:
+- Extended from EditText, so you can use it like regular EditText f.e. with TextInputLayout
+- Formatting occurs in runtime
+- You can change decimal separator, decimal part length, grouping separator
+- Cases with insert from clipboard was processed, as a result, you can't paste incorrect values. From pasted data will be select correct parts only 
+
 Project sample is above.
 
 # Work example
