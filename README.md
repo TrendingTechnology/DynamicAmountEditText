@@ -1,6 +1,6 @@
 # DynamicAmountEditText [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
 
-Customizable view with runtime amount formatting. There's nothing extra. Supports different divider's types.
+Customizable `EditText` with runtime amount formatting. There's nothing extra. Supports different divider's types.
 
 Features:
 - Extended from EditText, so you can use it like regular EditText f.e. with TextInputLayout
